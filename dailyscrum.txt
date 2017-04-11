@@ -1,10 +1,22 @@
 10 apr 2017 - Laurian
+
 1. Created all the account required for the project.
   github, Trello
   proposal for the project
 2. modify the proposal to be aproved. add picture modification crop, black an white for now. 
   Add invoicing feature to customer. 
 3. Will create a interface mock of the crop, black and white picture modification.
+
+10 April-Alireza
+
+Did since last scrum:
+1-Create and regster new acounts for GiHub and Trello
+2- Decided and working on logic of application
+3- some user exprience 
+
+Will did in the next 24 hours:
+working on implementation of login page
+
 
 11 apr 2017 - Laurian
 

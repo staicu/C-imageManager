@@ -5,7 +5,7 @@
         xmlns:pd="clr-namespace:MediaManager"
         WindowState="Maximized">
     <Viewbox VerticalAlignment="Top" Stretch="Uniform">
-        <Grid Margin="20" Width="620" ShowGridLines="False" >
+        <Grid Margin="20" Width="620" ShowGridLines="True" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="120" />
@@ -26,8 +26,8 @@
             </TextBlock>
             <ListBox 
                 Name ="PhotoListBox" 
-                Margin="5,181,15,0" 
-                SelectedIndex="0" Grid.Row="3" Grid.RowSpan="2" Grid.Column="1"  />
+                Margin="10,158,10,7.6" 
+                SelectedIndex="0" Grid.Row="3" Grid.Column="1"  />
             <StackPanel
                 Grid.Row="3" Grid.Column="0">
             </StackPanel>
@@ -86,7 +86,7 @@
                 </TextBlock>
                 <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled"  
                          Name="MediaListBox" 
-                         Margin="29.5,-108.714,0,150.666" Grid.RowSpan="2" />
+                         Margin="19,-82,10,124.6" Grid.RowSpan="2" />
             </Grid>
             <StackPanel
                 Grid.Row="3" Grid.Column="1" Margin="390,152,10,74" Grid.ColumnSpan="2"  >

@@ -1,8 +1,106 @@
-﻿<Window x:Class="MyNewProject.MainWindow"
+﻿<Window x:Class="MediaManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title=" Customer Media Manager "
+        xmlns:pd="clr-namespace:MediaManager"
+        WindowState="Maximized">
+    <Viewbox VerticalAlignment="Top" Stretch="Uniform">
+        <Grid Margin="20" Width="620" ShowGridLines="False" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="120" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="250" />
+                <RowDefinition Height="15" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="400" />
+                <ColumnDefinition Width="160" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Margin="179.647,158.286,-239.647,75.714" >
+                <Span> Database</Span>
+            </TextBlock>
+            <ListBox 
+                Name ="PhotoListBox" 
+                Margin="5,181,15,0" 
+                SelectedIndex="0" Grid.Row="3" Grid.RowSpan="2" Grid.Column="1"  />
+            <StackPanel
+                Grid.Row="3" Grid.Column="0">
+            </StackPanel>
+            <Image Name="CurrentPhoto" 
+                   Source="C:\Users\larry\Google Drive\dotnetProject\Gia Tilt Brush\New Sketch_10(1).png"
+                   Grid.Row="3" 
+                   Margin="0,10,23,101.928" Grid.Column="1" 
+            />
+            <Grid 
+                Grid.Row="5" Grid.Column="1" 
+                HorizontalAlignment="Center" 
+                Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="9*"/>
+                    <ColumnDefinition Width="145*"/>
+                    <ColumnDefinition Width="200*"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox
+                    Grid.Row="0" Grid.Column="0" 
+                    Margin="-18.078,-373.316,41.919,347.316" 
+                    VerticalAlignment="Center" 
+                    Name="PrintTypeComboBox" 
+                    Width="150" 
+                    SelectedIndex="0" Height="46" Grid.ColumnSpan="2"  />
+                <Button 
+                    Grid.Row="0" Grid.Column="1" 
+                    
+                    VerticalAlignment="Center" 
+                    Width="200"  
+                    IsDefault="True" Grid.ColumnSpan="2" Margin="159.066,-372.316,-15.066,372.316">
+                    Add to Customer List
+                </Button>
+
+                <Button Grid.Column="1" 
+                        Name="RemoveButton"             
+                        VerticalAlignment="Center" 
+                        IsEnabled="False" 
+                        Margin="159.066,-342.266,-15.066,342.266" Grid.ColumnSpan="2" >
+                    Remove Item
+                </Button>
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0"              
+                           FontSize="13px" 
+                           Margin="2" 
+                           HorizontalAlignment="Center">
+                    Selected Item List
+                </TextBlock>
+                <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled"  
+                         Name="MediaListBox" 
+                         Margin="29.5,-108.714,0,150.666" Grid.RowSpan="2" />
+            </Grid>
+            <StackPanel
+                Grid.Row="3" Grid.Column="1" Margin="390,152,10,74" Grid.ColumnSpan="2"  >
+                <Button 
+                    x:Name="BtSaveList"
+                    VerticalAlignment="Bottom" 
+                    HorizontalAlignment="Center" 
+                    Width="120"  				
+                    Margin="30,2,10,2"
+                    IsEnabled="False" Content="Save Customer List"/>
+            </StackPanel>
+            <Button Content="Crop" Grid.Column="1" HorizontalAlignment="Left" Margin="23,83,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Black@White" Grid.Column="1" HorizontalAlignment="Left" Margin="144,83,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Cancel/Undo" Grid.Column="1" HorizontalAlignment="Left" Margin="255,83,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+    </Viewbox>
 </Window>

@@ -1,0 +1,13 @@
+diff a/MainWindow.xaml b/MainWindow.xaml	(rejected hunks)
+@@ -5,7 +5,11 @@
+         xmlns:pd="clr-namespace:MediaManager"
+         WindowState="Maximized">
+     <Viewbox VerticalAlignment="Top" Stretch="Uniform">
++<<<<<<< HEAD
+         <Grid Margin="20" Width="620" ShowGridLines="true" >
++=======
++        <Grid Margin="20" Width="620" ShowGridLines="True" >
++>>>>>>> 7f43f3d23a51a16fd8aa7d59540c373efcf51800
+             <Grid.RowDefinitions>
+                 <RowDefinition Height="Auto" />
+                 <RowDefinition Height="120" />

@@ -1,4 +1,4 @@
-10 apr 2018 - Laurian
+10 apr 2017 - Laurian
 1. Created all the account required for the project.
   github, Trello
   proposal for the project
@@ -6,3 +6,9 @@
   Add invoicing feature to customer. 
 3. Will create a interface mock of the crop, black and white picture modification.
 
+11 apr 2017 - Laurian
+
+ create list for images
+ add the image database(mock up) to the list
+ select image from list
+ display the image from the list

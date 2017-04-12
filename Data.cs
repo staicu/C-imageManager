@@ -36,7 +36,6 @@ namespace MediaManager
     public class MediaList : ObservableCollection<ImageFile>
     {
 
-
         public string Path
         {
             set

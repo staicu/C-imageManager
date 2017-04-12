@@ -17,14 +17,9 @@ namespace MediaManager
         public WindowPhotoSelect()
         {
             InitializeComponent();
-
         }
 
-        private void WindowLoaded(object sender, EventArgs e)
-        {
-            var layer = AdornerLayer.GetAdornerLayer(CurrentPhoto);
-
-        }
+   
         public MediaList Photos;
         private void PhotoListSelection(object sender, RoutedEventArgs e)
         {

@@ -32,4 +32,4 @@ working on implementation of login page
 thinking about data base. some Modifications. Add Packages table. 
 
 next 24:
-working on customer form
+working on customers form

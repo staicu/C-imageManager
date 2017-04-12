@@ -28,8 +28,16 @@ working on implementation of login page
 
 
 11 april - Alireza
+<<<<<<< HEAD
   create database create all tables Files,Projects,Customers,Invoice
 thinking about data base. some Modifications. Add Packages table. 
 
 next 24:
-working on customers form
+working on customerss form
+=======
+  create database
+  
+12 april 2017
+add package list
+add selected file to to customer list
+>>>>>>> 53955aeb9af6e3a6d2f8de6836043d1d5a300dcb

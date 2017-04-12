@@ -1,17 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Data;
 
-namespace MyNewProject
+namespace MediaManager
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+
+    public partial class app : Application
     {
+
+        void AppStartup(object sender, StartupEventArgs args)
+        {
+            WindowPhotoSelect mainWindow = new WindowPhotoSelect();
+            mainWindow.Show();
+
+            mainWindow.Photos = (MediaList)(this.Resources["Photos"] as ObjectDataProvider).Data;
+            mainWindow.Photos.Path = "..\\..\\photos";
+
+            
+            
+        }
+
     }
 }

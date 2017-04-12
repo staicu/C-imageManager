@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,32 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\New Sketch_00.gif" />
-    <Resource Include="images\New Sketch_01.gif" />
-    <Resource Include="images\New Sketch_07.png" />
-    <Resource Include="images\New Sketch_08.png" />
-    <Resource Include="images\New Sketch_09%281%29.png" />
-    <Resource Include="images\New Sketch_09.png" />
-    <Resource Include="images\New Sketch_10%281%29.png" />
-    <Resource Include="images\New Sketch_11.png" />
-    <Resource Include="images\New Sketch_12.png" />
-    <Resource Include="images\New Sketch_13.png" />
-    <Resource Include="images\New Sketch_14.png" />
-    <Resource Include="images\New Sketch_15.png" />
-    <Resource Include="images\New Sketch_16.png" />
-    <Resource Include="images\New Sketch_17.png" />
-    <Resource Include="images\New Sketch_18.png" />
-    <Resource Include="images\New Sketch_19.png" />
-    <Resource Include="images\New Sketch_20.png" />
-    <Resource Include="images\New Sketch_21.png" />
-    <Resource Include="images\New Sketch_22.png" />
-    <Resource Include="images\New Sketch_23.png" />
-    <Resource Include="images\New Sketch_24.png" />
-    <Resource Include="images\New Sketch_25.png" />
-    <Resource Include="images\New Sketch_26.png" />
-    <Resource Include="images\New Sketch_27.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

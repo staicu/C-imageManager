@@ -1,8 +1,12 @@
-﻿<Application x:Class="MyNewProject.App"
+﻿<Application x:Class="MediaManager.app"
+             xmlns:pd="clr-namespace:MediaManager"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="MainWindow.xaml">
+             Startup="AppStartup"
+>
+
     <Application.Resources>
-         
+        <ObjectDataProvider x:Key="Photos" ObjectType="{x:Type pd:MediaList}" />
     </Application.Resources>
+
 </Application>

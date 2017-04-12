@@ -1,29 +1,58 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Media.Animation;
+using System.Windows.Input;
+using System.Collections;
 
 namespace MediaManager
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowPhotoSelect
     {
-        public MainWindow()
+        public WindowPhotoSelect()
         {
             InitializeComponent();
+
         }
+
+        private void WindowLoaded(object sender, EventArgs e)
+        {
+            var layer = AdornerLayer.GetAdornerLayer(CurrentPhoto);
+
+        }
+        public MediaList Photos;
+        private void PhotoListSelection(object sender, RoutedEventArgs e)
+        {
+            String path = ((sender as ListBox).SelectedItem.ToString());
+            BitmapSource img = BitmapFrame.Create(new Uri(path));
+            CurrentPhoto.Source = img;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }

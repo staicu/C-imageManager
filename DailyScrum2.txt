@@ -1,9 +1,0 @@
-10 April-Alireza
-
-Did since last scrum:
-1-Create and regster new acounts for GiHub and Trello
-2- Decided and working on logic of application
-3- some user exprience 
-
-Will did in the next 24 hours:
-working on implementation of login page

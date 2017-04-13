@@ -36,7 +36,26 @@
 		    </Border>
         </DataTemplate>
 
-		
+		<!-- PHOTOLIST TEMPLATE -->
+
+		<Style x:Key="PhotoListStyle" TargetType="{x:Type ListBox}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type ListBox}" >
+						<Border  >
+							<ScrollViewer 
+								VerticalScrollBarVisibility="Disabled" 
+								HorizontalScrollBarVisibility="Auto">
+								<StackPanel  
+									IsItemsHost="True" 
+									Orientation="Horizontal" 
+									HorizontalAlignment="Left" />
+							</ScrollViewer>
+						</Border>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
 
 
 		

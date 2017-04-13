@@ -1,21 +1,22 @@
-﻿using System;
+using System;
 using System.Windows;
 using System.Windows.Data;
 
 namespace MediaManager
 {
 
-    public partial class App : Application
+    public partial class app : Application
     {
 
-        void StartApp(object sender, StartupEventArgs args)
+        void AppStartup(object sender, StartupEventArgs args)
         {
-            WindowPhotoSelect mainWindow = new WindowPhotoSelect();
+            Window1 mainWindow = new Window1();
             mainWindow.Show();
 
-            mainWindow.Photos = (MediaList)(this.Resources["Photos"] as ObjectDataProvider).Data;
-            mainWindow.Photos.Path = "..\\..\\photos";
-           
+            mainWindow.Photos = (PhotoList)(this.Resources["Photos"] as ObjectDataProvider).Data;
+            mainWindow.Photos.Path = "..\\..\\Photos";
+
+            mainWindow.ShoppingCart = (MediaList)(this.Resources["ShoppingCart"] as ObjectDataProvider).Data;
             
         }
 

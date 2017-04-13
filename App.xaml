@@ -1,12 +1,15 @@
-﻿<Application x:Class="MediaManager.App"
-             xmlns:pd="clr-namespace:MediaManager"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             Startup="StartApp"
->
+﻿
+<Application x:Class="MediaManager.app"
+    xmlns:pd="clr-namespace:MediaManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Startup="AppStartup"
+    >
 
-    <Application.Resources>
-        <ObjectDataProvider x:Key="Photos" ObjectType="{x:Type pd:MediaList}" />
-    </Application.Resources>
+	<Application.Resources>
+		<ObjectDataProvider x:Name="PhotosODP" x:Key="Photos" ObjectType="{x:Type pd:PhotoList}" />
+		<ObjectDataProvider x:Name="ShoppingCartODP" x:Key="ShoppingCart" ObjectType="{x:Type pd:MediaList}" />
+		<ObjectDataProvider x:Name="PrintTypesODP" x:Key="PrintTypes" ObjectType="{x:Type pd:PackageTypeList}" />
+	</Application.Resources>
 
 </Application>

@@ -33,15 +33,35 @@ working on implementation of login page
 thinking about data base. some Modifications. Add Packages table. 
 
 next 24:
-working on customerss form
-=======
-  create database
+working on customers form
+create database
   
 12 april 2017
 add package list
 add selected file to to customer list
 
 
-12 april 2017 alireza
+
+12 april 2017 
+visio programming diagram prepared first version 
+defined working classes
+styling  image list
+styling selected files list
+Save list 
+
+
+13 april
+Rotate image
+crop image
+defined packages
+save to list
+remvove from list
+tested 
+
+
+
+
+
+
 
 

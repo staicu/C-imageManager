@@ -59,6 +59,15 @@ remvove from list
 tested 
 
 
+14 to 18 april
+study entity frame work tutorial
+implemented small example
+did research on image manipulation
+test crop the image
+redesign the database to work with the entiy frame work
+test save to list
+
+next 24h
 
 
 

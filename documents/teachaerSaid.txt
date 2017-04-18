@@ -1,0 +1,7 @@
+User is able to:
+
+* select picture for editing from a list (list with pictures and desription text)
+
+* resize the window and its components (using wpf gridsplitter for positioning)
+
+* be plases with how the UI is pleasant to use

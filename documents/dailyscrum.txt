@@ -67,7 +67,10 @@ test crop the image
 redesign the database to work with the entiy frame work
 test save to list
 
-next 24h
+19 April
+design a UI page for application
+working on entity framework
+
 
 
 

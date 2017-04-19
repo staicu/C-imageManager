@@ -1,0 +1,31 @@
+http://stackoverflow.com/questions/37026029/wpf-columns-dont-hide-properly-when-gridsplitter-is-moved
+
+<Window.Resources>
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+</Window.Resources>
+<Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <Border Background="Green" />
+    <ToggleButton x:Name="toggleButton"
+                  Width="30"
+                  Height="30"
+                  Margin="0,10,10,0"
+                  HorizontalAlignment="Right"
+                  VerticalAlignment="Top" />
+    <Grid Grid.Column="1"
+          Visibility="{Binding IsChecked, ElementName=toggleButton, Converter={StaticResource BooleanToVisibilityConverter}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="300"
+                              MinWidth="300"
+                              MaxWidth="600" />
+        </Grid.ColumnDefinitions>
+        <GridSplitter Width="5"
+                      ResizeBehavior="CurrentAndNext" />
+        <WrapPanel Grid.Column="1"
+                   Background="Aqua" />
+    </Grid>
+</Grid>

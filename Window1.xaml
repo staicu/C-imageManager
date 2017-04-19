@@ -10,7 +10,7 @@
 	<Window.Resources>
 	
 	
-		<!-- DATA TEMPLATES -->
+		<!-- data TEMPLATES -->
 
 		<DataTemplate DataType="{x:Type pd:ImageFile}">
 			<Border VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" Margin="2" Background="White">

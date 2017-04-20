@@ -71,6 +71,14 @@ test save to list
 design a UI page for application
 working on entity framework
 
+20 April
+working on grid splitter 
+design layout of the page
+
+21 april
+fix bug .No reference to images.
+issues with Rubberband
+
 
 
 

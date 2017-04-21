@@ -78,6 +78,7 @@ design layout of the page
 21 april
 fix bug .No reference to images.
 issues with Rubberband
+finishing style for buttons
 
 
 

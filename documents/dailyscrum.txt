@@ -81,6 +81,16 @@ issues with Rubberband
 finishing style for buttons
 
 
+24 april
+laurian
+database connection
+image representation in database
+wokr on the main window style
+
+alireza
+redesign the database for images
+download images
+upload images
 
 
 

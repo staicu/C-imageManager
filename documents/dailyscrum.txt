@@ -92,6 +92,13 @@ redesign the database for images
 download images
 upload images
 
+ 25 april
+ laurian
+ testing application to get image and store them on the database
+ integrating application with the main window
+ 
+ alireza
+ working on the UI gridsplitter 
 
 
 

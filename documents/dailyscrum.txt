@@ -99,6 +99,23 @@ upload images
  
  alireza
  working on the UI gridsplitter 
+ 
+26 april 
+1-what we did:
+laurian
+implemented list all pictures from database
+implemented search by main pictures
+Alireza :
+complete trello
+design logic of program
+2- in next 24:
+laurian:
+User interface
+design functionality of user interface
+alireza:
+Brain storming, going to resturant, breath fresh air, enjoy nice spring, listeniing to the voice of imigrants births
+3- Question : How to resize tab item,tab control
+
 
 
 
